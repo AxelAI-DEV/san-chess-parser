@@ -28,7 +28,7 @@ Consiste en un programa que recibe una partida de ajedrez escrita en notación a
 ## Instrucciones para ejecutar
 
 1. Clonar el repositorio:
-git clone https://github.com/tu_usuario/repositorio_parser_san.git
+git clone https://github.com/AxelAI-DEV/san-chess-parser.git
 cd repositorio_parser_san
 
 2. Instalar dependencias:
