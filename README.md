@@ -1,71 +1,63 @@
-# Parser SAN - Árbol de Turnos de Partidas de Ajedrez 
+Parser SAN - Árbol de Turnos de Partidas de Ajedrez
 
-## Descripción
+Descripción
 
-Este proyecto es la solución a la práctica III del curso Lenguajes de Programación, impartido en la Universidad EAFIT, mayo 2025.
+Este proyecto es la solución a la Práctica III del curso Lenguajes de Programación de la Universidad EAFIT (mayo de 2025).
 
-Consiste en un programa que recibe una partida de ajedrez escrita en notación algebraica estándar (SAN), valida sintácticamente cada movimiento según una gramática BNF y, si la partida es válida, la representa mediante un árbol binario visual por turnos.
+Se trata de una aplicación que recibe como entrada una partida de ajedrez escrita en notación SAN (notación algebraica estándar), verifica que cada jugada sea válida y, si todo está correcto, genera una visualización gráfica en forma de árbol binario, mostrando los turnos de la partida jugada por jugada.
 
-## Funcionalidades
+¿Qué hace el programa?
 
-- Validación sintáctica de movimientos individuales y turnos completos.
-- Detección y notificación de errores en movimientos inválidos.
-- Visualización gráfica en árbol binario donde cada nodo representa un turno, con movimientos de blancas y negras.
-- Interfaz gráfica amigable desarrollada con PyQt5.
+* Revisa que cada movimiento siga las reglas sintácticas de SAN.
+* Indica si alguna jugada está mal escrita o fuera de lugar.
+* Si todo está bien, dibuja un árbol binario donde se muestran las jugadas de las blancas y las negras en cada turno.
+* Usa una interfaz gráfica sencilla para facilitar su uso.
 
-## Tecnologías
+Herramientas utilizadas
 
-- Lenguaje: Python 3.10+
-- Biblioteca gráfica: PyQt5
-- Expresiones regulares para validación según gramática BNF
+* Python 3.10 o superior
+* PyQt5 para la parte gráfica
+* Expresiones regulares para validar la notación SAN
 
-## Estructura del repositorio
+Archivos del proyecto
 
-- `main.py`: Código principal con la implementación del parser y la interfaz.
-- `README.md`: Este archivo con la descripción y guía.
-- Otros archivos: (si aplican)
+* main.py: contiene todo el código de la aplicación.
+* README.md: este archivo con la explicación del proyecto.
+* (Otros archivos si son necesarios para correr el programa)
 
-## Instrucciones para ejecutar
+¿Cómo se usa?
 
-1. Clonar el repositorio:
-
-
+1. Clona este repositorio:
 git clone https://github.com/AxelAI-DEV/san-chess-parser.git
 cd san-chess-parser
 
 
-2. Instalar dependencias:
-
-
+2. Instala las dependencias necesarias:
 pip install PyQt5
 
 
-3. Ejecutar el programa:
-
-
+3. Ejecuta el archivo principal:
 python main.py
 
 
-4. En la interfaz, ingresar la partida en SAN en el campo de texto y presionar **"Parsear y Mostrar Árbol"** para visualizar la estructura.
+4. Cuando se abra la ventana, escribe la partida en el recuadro (en notación SAN) y haz clic en **“Parsear y Mostrar Árbol”**. Si todo está bien, verás el árbol gráfico en la parte inferior.
 
-## Integrantes
+Autor
 
-* Axel Cardona Vasquez
+* Axel Cardona Vásquez
 
-## Entorno de desarrollo
+Entorno de desarrollo
 
-* Lenguaje: Python 3.10
-* IDE: Visual Studio Code
-* Sistema operativo: Windows 10
+* Python 3.10
+* Visual Studio Code
+* Windows 10
 
-## Observaciones
+Nota final
 
-La práctica cumple con la especificación entregada, realizando validación sintáctica y mostrando el árbol binario intercalado por turnos.
+Este proyecto sigue las especificaciones dadas por el profesor, y cumple con lo solicitado en cuanto a validación y representación gráfica del árbol binario por turnos.
 
----
-
-### Referencia
+Profesor y curso
 
 * Profesor: Alexander Narváez Berrío
 * Curso: ST0244 - Lenguajes de Programación
-* Universidad EAFIT, Mayo 2025
+* Universidad EAFIT – Mayo 2025
