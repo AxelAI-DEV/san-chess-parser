@@ -69,8 +69,3 @@ La práctica cumple con la especificación entregada, realizando validación sin
 * Profesor: Alexander Narváez Berrío
 * Curso: ST0244 - Lenguajes de Programación
 * Universidad EAFIT, Mayo 2025
-
-```
-
-Si quieres, te lo dejo listo para copiar y pegar directo en tu archivo `README.md`. ¿Quieres?
-```
